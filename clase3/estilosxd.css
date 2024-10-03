@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(57, 61, 60);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iniciar{
+    position: fixed; /* Posiciona el botón de manera absoluta */
+    top: 0px; /* Distancia desde la parte superior */
+    right: 150px; /* Distancia desde la parte derecha */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #cacccf; /* Color de fondo del botón */
+    color: rgb(8, 8, 8); /* Color del texto del botón */
+    border: black; /* Sin borde en el botón */
+    border-radius: 25px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor cuando pasa sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+}
+
+.sub{
+    position: fixed; /* Posiciona el botón de manera absoluta */
+    top: 0px; /* Distancia desde la parte superior */
+    right: 10px; /* Distancia desde la parte derecha */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: rgb(57, 61, 60); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: 10px rgb(5, 5, 5); /* Sin borde en el botón */
+    border-radius: 25px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor cuando pasa sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+}
+
+.n1{
+    position: fixed; /* Posiciona el botón de manera absoluta */
+    width: 800px;
+    top: 480px; /* Distancia desde la parte superior */
+    right: 200px; /* Distancia desde la parte derecha */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: rgb(76, 79, 78); /* Color de fondo del botón */
+    color: rgb(140, 135, 135); /* Color del texto del botón */
+    border: none;  /* Sin borde en el botón */
+    border-color: none;
+    resize: none; 
+    border-radius: 25px; /* Bordes redondeados del botón */
+    cursor: text; /* Cambia el cursor cuando pasa sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+    box-shadow: none;
+}

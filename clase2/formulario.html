@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8"/>
+        <link rel="shortcut icon" href="img/fav.png"/>
+    </head>
+    <body>
+        <form method="post" action="">
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <input type="text" placeholder="Tu nombre" name="nombre" required autofocus/>
+                <input type="text" placeholder="Tu Apellido" name="Apellido" required/>
+                <label>Fecha de Nacimiento</label>
+                <input type="date"/></label>
+                <input type="number" placeholder="Tu edad"/></p>
+
+                <input type="email" placeholder="Tu email"/>
+                <input type="phone" placeholder="Telefono"/>
+                <input type="radio" name="sexo" value="H"/><label>Hombre</label>
+                <input type="radio" name="sexo" value="H"/><label>Mujer</label></p>
+
+                <label>Ciudad de residencia</label>
+                <select name="Ciudad">
+                    <option>Asuncion</option>
+                    <option>San Lorenzo</option>
+                    <option>Fernando de la mora</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>DatosLaborales</legend>
+                <label>Disponibilidad de tiempo</label>
+                <input type="checkbox" value="true" name="Dispo_m">Mañana
+                <input type="checkbox" value="true" name="Dispo_t">Tarde
+                <input type="checkbox" value="true" name="Dispo_n">Noche
+                <p><label>Aspiracion salarial</label>
+                    Gs.2.500.000<input type="range" min="2500000" max="5500000" step="100000"> Gs. 5.500.000
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
